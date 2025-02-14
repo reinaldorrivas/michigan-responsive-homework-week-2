@@ -1,42 +1,42 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
+  font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
   background-color: #dedede;
 }
 
 h1 {
   text-align: center;
-  font-family: Arial, sans-serif;
-  font-size: 32px;
+  font-family: "Ribeye Marrow", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.2rem;
 }
 
 a {
   color: #000;
   text-decoration: none;
-  font-family: Arial, sans-serif;
 }
 
 p {
-  font-size: 25px;
-  font-family: Arial, sans-serif;
+  font-size: 2.5rem;
 }
 
 img {
-  width: 100%;
-}
-
-p {
-  text-align: center;
-}
-
-div img {
-  width: 150px;
-  height: 150px;
-  display: block;
-  margin: auto;
-}
-
-div {
-  display: inline-block;
-  width: 24%;
-  margin: 5px;
-  padding: 2px;
+  max-width: 100%;
+  height: auto;
 }
