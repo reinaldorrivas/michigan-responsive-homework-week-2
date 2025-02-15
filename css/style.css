@@ -42,11 +42,19 @@ img {
 }
 
 /*
- * Homework Description Section
+ * Main content
+ */
+
+.main-content {
+  padding: 0 20px;
+}
+
+/*
+ * Homework Description
  */
 
 .homework-description {
-  padding: 0 20px;
+  margin-bottom: 5rem;
 }
 
 /*
