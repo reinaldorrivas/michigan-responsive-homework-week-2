@@ -27,12 +27,12 @@
     </header>
 
     <main class="main-content">
-      <section>
-        <h2>Basic Media Queries</h2>
-        <p>
+      <section class="homework-description">
+        <h2 class="homework-description__title">Basic Media Queries</h2>
+        <p class="homework-description__text">
           In this assignment you will add two media queries to the css file.
         </p>
-        <ul>
+        <ul class="homework-description__text--instructions">
           <li>
             The first media query should trigger at 772px and change the layout
             of the divs to be 45% of the viewport width. The images should have
@@ -44,7 +44,7 @@
             of the divs to be 30% of the viewport width.
           </li>
         </ul>
-        <p>
+        <p class="homework-description__text">
           You will need to make additional changes to ensure that the divs
           appear next to each other and that the images are contained within the
           divs. Some of these properties include display, width and max-height.
@@ -52,74 +52,78 @@
       </section>
 
       <div class="images">
-        <div class="image-container">
-          <img class="image-container__image" src="images/Red.jpeg" alt="Red" />
-          <p class="image-container__description">Red</p>
-        </div>
-        <div class="images__image">
+        <figure class="image-container">
           <img
             class="image-container__image"
-            src="images/Orange.png"
+            src="./images/Red.jpeg"
+            alt="Red"
+          />
+          <figcaption class="image-container__description">Red</figcaption>
+        </figure>
+        <figure class="image-container">
+          <img
+            class="image-container__image"
+            src="./images/Orange.png"
             alt="Orange"
           />
-          <p class="image-container__description">Orange</p>
-        </div>
-        <div>
+          <figcaption class="image-container__description">Orange</figcaption>
+        </figure>
+        <figure class="image-container">
           <img
             class="image-container__image"
-            src="images/Yellow.png"
+            src="./images/Yellow.png"
             alt="Yellow"
           />
-          <p class="image-container__description">Yellow</p>
-        </div>
-        <div>
+          <figcaption class="image-container__description">Yellow</figcaption>
+        </figure>
+        <figure class="image-container">
           <img
             class="image-container__image"
-            src="images/Green.png"
+            src="./images/Green.png"
             alt="Green"
           />
-          <p class="image-container__description">Green</p>
-        </div>
-        <div>
+          <figcaption class="image-container__description">Green</figcaption>
+        </figure>
+        <figure class="image-container">
           <img
             class="image-container__image"
-            src="images/Blue.png"
+            src="./images/Blue.png"
             alt="Blue"
           />
-          <p class="image-container__description">Blue</p>
-        </div>
-        <div>
+          <figcaption class="image-container__description">Blue</figcaption>
+        </figure>
+        <figure class="image-container">
           <img
             class="image-container__image"
-            src="images/Indigo.jpeg"
+            src="./images/Indigo.jpeg"
             alt="Indigo"
           />
-          <p class="image-container__description">Indigo</p>
-        </div>
-        <div>
+          <figcaption class="image-container__description">Indigo</figcaption>
+        </figure>
+        <figure class="image-container">
           <img
             class="image-container__image"
-            src="images/Purple.png"
+            src="./images/Purple.png"
             alt="Purple"
           />
-          <p class="image-container__description">Purple</p>
-        </div>
-        <div>
+          <figcaption class="image-container__description">Purple</figcaption>
+        </figure>
+        <figure class="image-container">
           <img
             class="image-container__image"
-            src="images/Pink.jpeg"
+            src="./images/Pink.jpeg"
             alt="Pink"
           />
-          <p class="image-container__description">Pink</p>
-        </div>
-        <div>
+          <figcaption class="image-container__description">Pink</figcaption>
+        </figure>
+        <figure class="image-container">
           <img
             class="image-container__image"
-            src="images/White.png"
+            src="./images/White.png"
             alt="White"
           />
-          <p class="image-container__description">White</p>
-        </div>
+          <figcaption class="image-container__description">White</figcaption>
+        </figure>
       </div>
     </main>
 
