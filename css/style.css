@@ -97,17 +97,26 @@ img {
 @media (min-width: 772px) {
   .image-container__image {
     aspect-ratio: auto;
-    width: 45vw;
+    width: calc(45vw - 20px);
     height: 30vh;
   }
 }
 
 @media (min-width: 998px) {
   .image-container__image {
-    width: 30vw;
+    width: calc(30vw - 20px);
   }
 }
 
 .image-container__description {
   text-align: center;
+}
+
+/*
+ * Main Footer
+ */
+
+.main-footer {
+  margin: 2.5rem 0;
+  padding: 0 20px;
 }
